@@ -1,0 +1,96 @@
+<html>
+<head>
+    <link rel="stylesheet" href="files/css/style.css"/>
+    <script src="files/js/jquery.js"></script>
+    <script>
+        isWumpusDead = false;
+        isShooting = false;
+    </script>
+    <script src="files/js/cell.js"></script>
+    <script src="files/js/wumpus.js"></script>
+</head>
+
+<body>
+<table class="pboard">
+    <tbody>
+    <tr class="row4">
+        <td class="cell14"></td>
+        <td class="cell24"></td>
+        <td class="cell34"></td>
+        <td class="cell44"></td>
+    </tr>
+    <tr class="row3">
+        <td class="cell13"></td>
+        <td class="cell23"></td>
+        <td class="cell33"></td>
+        <td class="cell43"></td>
+    </tr>
+    <tr class="row2">
+        <td class="cell12"></td>
+        <td class="cell22"></td>
+        <td class="cell32"></td>
+        <td class="cell42"></td>
+    </tr>
+    <tr class="row1">
+        <td class="cell11"></td>
+        <td class="cell21"></td>
+        <td class="cell31"></td>
+        <td class="cell41"></td>
+    </tr>
+    </tbody>
+</table>
+
+<table class="mboard">
+    <tbody>
+    <tr class="row4">
+        <td class="cell14"></td>
+        <td class="cell24"></td>
+        <td class="cell34"></td>
+        <td class="cell44"></td>
+    </tr>
+    <tr class="row3">
+        <td class="cell13"></td>
+        <td class="cell23"></td>
+        <td class="cell33"></td>
+        <td class="cell43"></td>
+    </tr>
+    <tr class="row2">
+        <td class="cell12"></td>
+        <td class="cell22"></td>
+        <td class="cell32"></td>
+        <td class="cell42"></td>
+    </tr>
+    <tr class="row1">
+        <td class="cell11"></td>
+        <td class="cell21"></td>
+        <td class="cell31"></td>
+        <td class="cell41"></td>
+    </tr>
+    </tbody>
+</table>
+
+<div style="position: absolute; top: 440px;">
+    <button onclick="location.reload();" class="button">Restart</button>
+</div>
+
+<div style="position: absolute; top: 440px; left:17%;">
+    <button id="startGame" class="button">Start</button>
+</div>
+
+<div  style="position: absolute; top: 500px;">
+    <p id="points">Points: 0</p>
+</div>
+
+<div  style="position: absolute; top: 515px;">
+    <p id="warnings"></p>
+</div>
+
+<div style="position: absolute; top: 530px; color: red;">
+    <p id="status"></p>
+</div>
+
+</body>
+
+<script src="files/js/move.js"></script>
+
+</html>

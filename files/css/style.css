@@ -1,0 +1,71 @@
+body {
+    margin: 50px 150px 0 150px;
+}
+
+.mboard, .pboard {
+    background-color: #fff;
+    height: 350px;
+    width: 350px;
+}
+
+.mboard td, .pboard td {
+    background-color: #efefef;
+}
+
+.pboard {
+    float: right;
+   visibility: hidden;
+
+}
+
+.mboard {
+    float: left;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 18px;
+  font-size: 12px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #f2564b;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 6px #999;
+}
+
+.button:hover {background-color: #ea4438}
+
+.button:active {
+  background-color: #f2564b;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#startGame{
+  background-color: #4CAF50;
+
+}
+
+#points{
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-family: "Lucida Console", Courier, monospace;
+}
+
+#warnings{
+  margin-top:25px;
+  margin-bottom:25px;
+  font-size: 18px;
+  font-family: "Lucida Console", Courier, monospace;
+}
+
+#status{
+  margin-top:30px;
+  font-family: "Lucida Console", Courier, monospace;
+  font-size: 18px;
+
+}
